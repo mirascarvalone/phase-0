@@ -1,0 +1,16 @@
+# 1.1 Think About Time Reflection
+I learned about meditation, growth vs. fixed mindsets, the pomodoro technique, practice and persistence, tiny habits, and time-boxing. Time boxing is telling yourself you will only spend a certain amount of time on a particular task. For example, I time boxed this assignment at an hour. This will be helpful in phase 0 to ensure you’re not spinning your wheels for too long - for example, I could tell myself that I will spend 30 minutes trying to solve a particular part of a problem, and if I’m still stuck after that time, turn to google, another student in my cohort, or elsewhere for help (or just take a break and come back to it later). Having not been a student in over four years (and also having never done a remote course like this), I think that having this much time to manage on my own will be a challenge in Phase 0. Some of the things that appealed to me in this lesson to help with that problem included the pomodoro technique and tiny habits. I had never heard of either of these methods before, but have practiced some form of them before. For example, I started small with certain exercise goals a few years ago and now enjoy exercise to the point where I do it multiple times a day. I think that overall what will be key for me in Phase 0 is keeping to a regular schedule so that DBC somewhat emulates a work schedule I’m used to - ie. trying to get up around the same time every day, exercise at the same time, and budget set times to be working on DBC every day.
+## 1.2 The Command Line Reflection
+A shell is an interface that allows us to access an operating system. Examples include a GUI (the way we graphically see folders and files through something like Finder on a Mac) or command line interface (what we use with terminal). Bash is an example of a command line shell using Unix. I found the material challenging because it was kind of boring and required memorization and repetition. I was able to successfully use all of the commands. While I don’t have a great sense of what we will be using these commands for in a programming context (since we just went through these basic examples involving silly files we created), but I personally file cd, ls, and pwd the most useful right now. That’s the best way for me to understand where I am and where I’m going. Here’s a brief description of the commands I remember:
+pwd: print working directory. This tells us where we are (i.e. what folder)
+-ls : this lists the files/folders that are in the directory we are in
+-mv : this allows us to move files. we used it to take a file, copy it and give it a new name.
+-cd: this tells us how to get somewhere - ie. typing cd directory will take us to that directory (or file) if we are one level above. also cd .. will take us back one level.
+-../: takes us back one directory level
+-touch: makes a new empty file
+-mkdir: makes a new directory (folder)
+-less: prints out the content of a file
+-rmdir: remove directory. allows us to delete a directory (folder)
+-rm: remove a file
+-help: type into the command line to get help, look up more information
+### 1.4 Forking and Cloning Reflection
