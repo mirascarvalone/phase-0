@@ -1,4 +1,4 @@
-!(site-map.png)
+!(/site-map.png)
 
 
 
