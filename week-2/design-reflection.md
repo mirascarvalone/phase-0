@@ -1,4 +1,4 @@
-!(../week-2/imgs/site-map.png)
+![Site map](../week-2/imgs/site-map.png "Site map")
 
 
 
