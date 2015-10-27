@@ -1,4 +1,4 @@
-!(/imgs/site-map.png)
+!(../week-2/imgs/site-map.png)
 
 
 
