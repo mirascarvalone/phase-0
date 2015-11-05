@@ -1,4 +1,4 @@
-![1](./imgs/1.png "1")
+![1](./imgs/1.png "1")![2](./imgs/1.png "2")
 
 
 #How can you use Chrome's DevTools inspector to help you format or position elements?
