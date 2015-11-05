@@ -58,3 +58,15 @@ img {
   background: #000000;
   margin-bottom: 10px;
 }
+
+
+/*What is important to know when linking an external file (like a stylesheet) to an HTML file?
+  In our case, it's important to include all the identifiers indicating that we're linking to a CSS stylesheet (linktype, rel, and href). It's also important that we correctly point to the location of the stylesheet. This seems simple, but my pair and I got stuck on this for a while because of a small mistake.
+What tricks did you use to help you with positioning? How hard was it to get the site as you wanted it?
+  Honestly, a lot of this is just trial and error. The only "trick" I developed was continually refreshing my page to see if an adjustment I made worked or not. I found it difficult to get the site exactly as I wanted, but it did become easier over time.
+What CSS did you use to modify the element style (like size, color, etc.)
+  I modified the text using font-size, color, font-weight, text-align, and display.
+Did you modify the HTML to include classes or ids? If so, which did you choose and why? If you didn't, how would you know which one to add to your HTML?
+  I used classes several times to modify a group of text that I was going to use again. In retrospect, I probably could have used an id, but this way felt cleaner. In the future, you could choose an id if you were only going to make those modifications to an element once, and a class if it would appear multiple times in your HTML code.
+When you compared your site to the actual code base, which do you think had cleaner code that followed best practices and why?
+  Our code follows more best practices in that it actually uses a stylesheet to do the formatting instead of having all the formatting directly in the HTML. However, their code is easier to follow as it's all in one place and uses a lot of default formatting.*/
