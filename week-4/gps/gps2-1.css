@@ -1,0 +1,51 @@
+* {
+    font-family: helvetica;
+}
+
+.column-1 {
+    background-color: white;
+    float: left;
+    width: 42%;
+    padding: 3%;
+    border: 1px solid green;
+    margin-top: 3px;
+}
+
+.column-2 {
+    background-color: white;
+    float: right;
+    width: 42%;
+    padding: 3%;
+    border: 1px solid green;
+    margin-top: 3px;
+}
+
+header p {
+    background-color: white;
+    padding-left: 4%;
+    padding-right: 4%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    border: 1px solid green;
+}
+
+header h1 {
+    background-color: white;
+    padding-left: 4%;
+    padding-right: 4%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    border: 1px solid green;
+    margin-bottom: 3px;
+    text-align: center;
+}
+
+footer {
+    clear: both;
+    margin-top: 10%;
+    font-size: 13px;
+}
+
+h2 {
+  color: purple;
+}
