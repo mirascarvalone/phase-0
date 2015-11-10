@@ -1,6 +1,6 @@
 # Good Guess
 
-# I worked on this challenge with Mo.
+# I worked on this challenge with Mo Amin.
 
 
 # Your Solution Below
