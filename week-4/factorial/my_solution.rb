@@ -5,14 +5,33 @@
 
 # Your Solution Below
 def factorial(number)
+  factorial = 1
+  i=0
+
   if number == 0
     return 1
-  elsif number == 1
-    return 1
+
   else
-    number*factorial(number-1)
+    while i < number
+      factorial = factorial*(number-i)
+      i +=1
+    end
   end
+
+  return factorial
 end
+
+
+# This method also works (using recursion):
+
+# def factorial(number)
+#   if number == 0
+#     return 1
+#   else
+#     number*factorial(number-1)
+#   end
+# end
+
 
 
 # Psuedocode
@@ -40,13 +59,7 @@ end
 # increment each integer by 1
 # x! = x*(x-1)!
 
-# The factorial of a number is the product of all integers from 1 up to that number. For example:
-
-# factorial(5) == 5 * 4 * 3 * 2 * 1 == 120
-# The factorial of 0 is defined to be 1.
-
-
-    # while number > 1
-    #   return number*(number-1)
-    #   number-=1
-    # end
+# while number > 1
+#   return number*(number-1)
+#   number-=1
+# end
