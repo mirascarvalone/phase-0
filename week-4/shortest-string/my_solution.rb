@@ -12,15 +12,21 @@
 
 #Your Solution Below
 def shortest_string(list_of_words)
-
-  hash = Hash.new
-
-  list_of_words.each do |x|
-    hash[x] = x.length
-  end
-
-  shortest_length = hash.values.sort[0]
-
-  return hash.key(shortest_length)
-
+  list_of_words.min {|x,y| x.size <=> y.size}
 end
+
+# This solution also works, using hashes:
+
+# def shortest_string(list_of_words)
+
+#   hash = Hash.new
+
+#   list_of_words.each do |x|
+#     hash[x] = x.length
+#   end
+
+#   shortest_length = hash.values.sort[0]
+
+#   return hash.key(shortest_length)
+
+# end

@@ -13,17 +13,22 @@
 
 # Your Solution Below
 def longest_string(list_of_words)
-
-  hash = Hash.new
-
-  list_of_words.each do |x|
-    hash[x] = x.length
-  end
-
-  longest_length = hash.values.sort[hash.length-1]
-
-  return hash.key(longest_length)
-
+  list_of_words.min {|x,y| y.size <=> x.size}
 end
 
-longest_string(['cat','aaa','moose'])
+
+# This solution also works using hashes:
+
+# def longest_string(list_of_words)
+
+#   hash = Hash.new
+
+#   list_of_words.each do |x|
+#     hash[x] = x.length
+#   end
+
+#   longest_length = hash.values.sort[hash.length-1]
+
+#   return hash.key(longest_length)
+
+# end

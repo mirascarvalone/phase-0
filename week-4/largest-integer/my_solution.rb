@@ -15,5 +15,3 @@ def largest_integer(list_of_nums)
   array = list_of_nums.sort
   return array[list_of_nums.length-1]
 end
-
-largest_integer([0])
