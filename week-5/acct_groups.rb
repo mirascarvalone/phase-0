@@ -43,21 +43,21 @@ end
 groups(roster)
 
 # Refactored Solution
-# def groups(array)
-#   array.shuffle!
+def groups(array)
+  array.shuffle!
 
-#   if array.length % 5 != 1 && array.length % 5 != 2
-#     print array.each_slice(5).to_a
-#   elsif array.length % 5 ==1
-#     print array.pop(3)
-#     print array.each_slice(5).to_a
-#   elsif array.length % 5 ==2
-#     print array.pop(4)
-#     print array.each_slice(5).to_a
-#   end
-# end
+  if array.length % 5 != 1 && array.length % 5 != 2
+    print array.each_slice(5).to_a
+  elsif array.length % 5 ==1
+    print array.pop(3)
+    print array.each_slice(5).to_a
+  elsif array.length % 5 ==2
+    print array.pop(4)
+    print array.each_slice(5).to_a
+  end
+end
 
-# groups(roster)
+groups(roster)
 
 # Reflection
 # What was the most interesting and most difficult part of this challenge?
