@@ -95,3 +95,17 @@ p grocery_list
 update_item("lemonade",-1,grocery_list)
 p grocery_list
 print_list(grocery_list)
+
+
+# What did you learn about pseudocode from working on this challenge?
+#   The pseudocode here was very structured and followed a specific format. I found that helpful.
+# What are the tradeoffs of using Arrays and Hashes for this challenge?
+#   I thought hashes made more sense since we could explicitly match each item to its quantity.
+# What does a method return?
+#   A method executes a set of code on inupts that you pass in as arguments.
+# What kind of things can you pass into methods as arguments?
+#   You can pass anything - an array, a list, a string, a hash.
+# How can you pass information between methods?
+#   Yes! We did it in this challenge. This was the first time I've seen that and used it successfully.
+# What concepts were solidified in this challenge, and what concepts are still confusing?
+#   The concept of passing information between methods is still confusing, but it was useful to get this introduction. It was also helpful to review methods we can call on arrays and hashes to add/delete/update entries, since I forgot a lot of that syntax.
