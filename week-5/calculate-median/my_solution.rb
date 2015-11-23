@@ -14,20 +14,25 @@
 
 
 # 1. Initial Solution
-def median(array)
-  sorted = array.sort
+# def median(array)
+#   sorted = array.sort
 
-  if sorted.length % 2 ==0
-    (sorted[(sorted.length/2)-1] + sorted[(sorted.length/2)])/2.to_f
-  else
-    sorted[sorted.length/2]
-  end
-end
+#   if sorted.length % 2 ==0
+#     (sorted[(sorted.length/2)-1] + sorted[(sorted.length/2)])/2.to_f
+#   else
+#     sorted[sorted.length/2]
+#   end
+# end
 
 array = [1,2,3,4,5,6]
 
 # 3. Refactored Solution
+def median(array)
+  sorted = array.sort
+  array_length = sorted.length
 
+  (sorted[(array_length-1)/2] + sorted[(array_length/2)])/2.to_f
+end
 
 
 # 4. Reflection
