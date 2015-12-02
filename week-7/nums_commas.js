@@ -60,6 +60,10 @@ console.log(separateComma(1234567))
 // Reflection
 
 // What was it like to approach the problem from the perspective of JavaScript? Did you approach the problem differently?
+//  I tried to forget the work we'd done on this project in Ruby, but a lot of the ideas were still there (such as thinking about reversing). I approached the problem a little differently since there are fewer built in methods that I'm familiar with.
 // What did you learn about iterating over arrays in JavaScript?
+//  We refactored with a for loop to save space (instead of using while), which was useful. I do miss the .each method from Ruby.
 // What was different about solving this problem in JavaScript?
+//  We had to iterate over our array fully and then convert it to and from a string. There was a little more work as we had fewer built in arrays to choose from.
 // What built-in methods did you find to incorporate in your refactored solution?
+//  We used .slice and .unshift which were useful. The unshift method puts elements of an array into a string backwards. The .slice method was useful to get rid of our trailing comma. There's probably a better way to write this to avoid having that extra comma, so I'll see if someone else comes up with that when doing peer reviews :)
