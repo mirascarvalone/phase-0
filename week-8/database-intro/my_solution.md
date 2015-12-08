@@ -30,7 +30,7 @@ LEFT JOIN
   regions
 ON
   states.region_id = regions.id
-WHERE region.id = 7;
+WHERE regions.id = 7;
 
 6.
 SELECT
