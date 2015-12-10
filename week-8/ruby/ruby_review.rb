@@ -11,29 +11,29 @@
 
 # Initial Solution
 
-def is_fibonacci?(num)
-  fibonacci_array = [0,1]
-  for i in 2..1000
-    fibonacci_array[i] = fibonacci_array[i-1] + fibonacci_array[i-2]
-    i +=1
-  end
-  if fibonacci_array.include?(num)
-    true
-  else
-    false
-  end
+# def is_fibonacci?(num)
+#   fibonacci_array = [0,1]
+#   for i in 2..1000
+#     fibonacci_array[i] = fibonacci_array[i-1] + fibonacci_array[i-2]
+#     i +=1
+#   end
+#   if fibonacci_array.include?(num)
+#     true
+#   else
+#     false
+#   end
 
-end
+# end
 
-# Refactored Solution
-def is_fibonacci?(num)
-  fibonacci_array = [0,1]
-  for i in 2..1000
-    fibonacci_array[i] = fibonacci_array[i-1] + fibonacci_array[i-2]
-    i +=1
-  end
-  fibonacci_array.include?(num) ? true : false
-end
+# # Refactored Solution
+# def is_fibonacci?(num)
+#   fibonacci_array = [0,1]
+#   for i in 2..1000
+#     fibonacci_array[i] = fibonacci_array[i-1] + fibonacci_array[i-2]
+#     i +=1
+#   end
+#   fibonacci_array.include?(num) ? true : false
+# end
 
 
 
@@ -59,3 +59,42 @@ end
 
 # is_fibonacci?(7)
 # is_fibonacci?(1)
+
+
+
+# SUPER FIZZBUZZ
+# def super_fizzbuzz(array)
+#   array.map! {|variable|
+#     if variable % 15 == 0
+#       variable = "FizzBuzz"
+#     elsif variable % 5 == 0
+#       variable = "Buzz"
+#     elsif variable % 3 == 0
+#       variable = "Fizz"
+#     else
+#       variable = variable
+#     end
+#   }
+
+#   return array
+
+# end
+
+
+# def super_fizzbuzz(array)
+#   new_array = []
+#   array.each do |variable|
+#     if variable % 15 == 0
+#       new_array.push "FizzBuzz"
+#     elsif variable % 5 == 0
+#       new_array.push "Buzz"
+#     elsif variable % 3 == 0
+#       new_array.push "Fizz"
+#     else
+#       new_array.push variable
+#     end
+#   end
+
+#   return new_array
+
+# end
